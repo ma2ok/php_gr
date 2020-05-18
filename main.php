@@ -1,13 +1,13 @@
 <?php
 
-$price = 500;
+// $name = 'taguchi';
+// $name = 'dotinstall';
 
-// $price = $price + 100;
-$price += 100; // 600
-$price *= 100; // 60000
+// define('NAME', 'taguchi');
+// define('NAME', 'dotinstall');
+// echo NAME . PHP_EOL;
 
-$price++; // 60001
-$price--; // 60000
-
-echo $price . PHP_EOL;
+const NAME = 'taguchi';
+const NAME = 'dotinstall';
+echo NAME . PHP_EOL;
 ?>
