@@ -1,13 +1,14 @@
 <?php
 
-// $name = 'taguchi';
-// $name = 'dotinstall';
+// $score = 85;
+// $score = 70;
+$score = 40;
 
-// define('NAME', 'taguchi');
-// define('NAME', 'dotinstall');
-// echo NAME . PHP_EOL;
-  
-const NAME = 'taguchi';
-const NAME = 'dotinstall';
-echo NAME . PHP_EOL;
+if ($score >= 80) {
+  echo 'Great!' . PHP_EOL;
+} elseif ($score >= 60) {
+  echo 'Good!' . PHP_EOL;
+} else {
+  echo 'OK!' . PHP_EOL;
+}
 ?>
