@@ -1,15 +1,15 @@
 <?php
 
-$name = 'taguchi';
+// echo 10 + 3 . PHP_EOL; // 13
+// echo 10 - 3 . PHP_EOL; // 7
+// echo 10 * 3 . PHP_EOL; // 30
+// echo 10 / 3 . PHP_EOL; // 3.3333...
 
-// $text = <<<'EOT' // nowdoc
-// $text = <<<"EOT" // heredoc
-  $text = <<<EOT
-  hello! $name
-    this is looooong
-  text!
-  
-  EOT;
+// echo 10 % 3 . PHP_EOL; // 1
+// echo 10 ** 3 . PHP_EOL; // 1000
 
-echo $text;
+// echo 2 + 10 * 3 . PHP_EOL; // 32
+// echo (2 + 10) * 3 . PHP_EOL; // 36
+
+echo 2 + '3' . PHP_EOL; // 5
 ?>
