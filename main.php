@@ -1,17 +1,12 @@
 <?php
+declare(strict_types=1);
 
-function sum($a, $b, $c) 
+function showInfo(string $name, int $score): void
 {
-  $total = $a + $b + $c;
-  
-  // if ($total < 0) {
-  //   return 0;
-  // } else {
-  //   return $total;
-  // }
-  return $total < 0 ? 0 : $total;
+  echo $name . ': ' . $score . PHP_EOL;
 }
 
-echo sum(100, 300, 500) . PHP_EOL; // 900
-echo sum(-1000, 300, 500) . PHP_EOL; // 0
+// showInfo('taguchi', 40);
+// showInfo('taguchi', 'dotinstall');
+showInfo('taguchi', '4');
 ?>
