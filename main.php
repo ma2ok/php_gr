@@ -6,8 +6,12 @@ $scores = [
   'third'  => 100,
 ];
 
-// var_dump($scores);
-// print_r($scores);
+// foreach ($scores as $value) {
+// foreach ($scores as $score) {
+//   echo $score . PHP_EOL;
+// }
 
-echo $scores['third'] . PHP_EOL;
+foreach ($scores as $key => $score) {
+  echo $key . ' - ' . $score . PHP_EOL;
+}
 ?>
