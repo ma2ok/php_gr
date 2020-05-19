@@ -1,12 +1,12 @@
 <?php
+
 declare(strict_types=1);
 
-function showInfo(string $name, int $score): void
+function getAward(?int $score): ?string
 {
-  echo $name . ': ' . $score . PHP_EOL;
+  return $score >= 100 ? 'Gold Medal' : null;
 }
 
-// showInfo('taguchi', 40);
-// showInfo('taguchi', 'dotinstall');
-showInfo('taguchi', '4');
+echo getAward(150) . PHP_EOL;
+echo getAward(40) . PHP_EOL;
 ?>
