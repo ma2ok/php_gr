@@ -1,17 +1,19 @@
 <?php
 
-$scores = [
-  'first'  => 90, 
-  'second' => 40, 
-  'third'  => 100,
+$moreScores = [
+  55,
+  72,
+  'perfect',
+  [90, 42, 88],
 ];
 
-// foreach ($scores as $value) {
-// foreach ($scores as $score) {
-//   echo $score . PHP_EOL;
-// }
+$scores = [
+  90,
+  40,
+  100,
+];
 
-foreach ($scores as $key => $score) {
-  echo $key . ' - ' . $score . PHP_EOL;
-}
+// print_r($scores);
+
+echo $scores[5][2] . PHP_EOL;
 ?>
